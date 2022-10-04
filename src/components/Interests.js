@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import { themeContext} from "../context/them"
 import {UserContext} from "../context/User"
 
-function Interests({ interests }) {
+function Interests() {
   const {theme} = useContext(themeContext)
   const {user}= useContext(UserContext)
   return (
